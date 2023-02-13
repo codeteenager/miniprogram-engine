@@ -1,0 +1,36 @@
+{
+  "name": "compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "mpt": "bin/mpt"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "commander": "^10.0.0",
+    "concat-with-sourcemaps": "^1.1.0",
+    "convert-source-map": "^2.0.0",
+    "et-improve": "^1.0.0",
+    "glob": "^8.1.0",
+    "growl": "^1.10.5",
+    "merge": "^2.1.1",
+    "node-parallel": "^0.1.6",
+    "semver-compare": "^1.0.0",
+    "uglify-js": "^3.17.4",
+    "wcc-compiler": "^1.0.0",
+    "wcsc-compiler": "^1.0.0",
+    "wxml-transpiler": "^1.0.5",
+    "wxss-transpiler": "^1.0.6"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+*.log
+/dist/
+.DS_Store
+.nyc_output/
+test/**/out
+package-lock.json

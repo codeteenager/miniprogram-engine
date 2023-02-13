@@ -1,0 +1,54 @@
+{
+  "name": "runtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.3",
+    "ei-loader": "^0.2.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "webpack-bundle-analyzer": "^4.8.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "component-classes": "^1.2.6",
+    "component-closest": "^1.0.1",
+    "component-emitter": "^1.2.1",
+    "component-event": "^0.2.0",
+    "component-events": "^1.0.10",
+    "component-file-picker": "^0.2.1",
+    "component-query": "0.0.3",
+    "component-querystring": "^2.0.0",
+    "component-raf": "^1.2.0",
+    "component-tap-event": "^1.1.4",
+    "component-tween": "^1.2.0",
+    "component-upload": "^0.3.0",
+    "domify": "^1.4.1"
+  },
+  "browser": {
+    "emitter": "component-emitter",
+    "querystring": "component-querystring",
+    "event": "component-event",
+    "tap-event": "component-tap-event",
+    "closest": "component-closest",
+    "tween": "component-tween",
+    "raf": "component-raf",
+    "classes": "component-classes",
+    "file-picker": "component-file-picker",
+    "upload": "component-upload",
+    "query": "component-query",
+    "events": "component-events",
+    "request": "request-component"
+  }
+}

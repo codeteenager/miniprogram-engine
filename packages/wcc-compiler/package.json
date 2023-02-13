@@ -1,0 +1,22 @@
+{
+  "name": "wcc-compiler",
+  "version": "1.0.0",
+  "description": "Compiler for wxml and wxss files.",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "webpack --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.4.4",
+    "@babel/parser": "^7.4.5",
+    "@babel/traverse": "^7.4.5",
+    "@babel/types": "^7.4.4",
+    "acorn": "^6.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
